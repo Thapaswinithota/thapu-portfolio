@@ -1,0 +1,124 @@
+.mywork {
+    display: flex;
+    flex-direction: column;
+    /* align-items: flex-start; */
+    justify-content: center;
+    gap: 10px;
+    margin: 40px 90px;
+  }
+  
+  .mywork-title {
+    /* text-align: center; */
+    position: relative;
+    /* margin-bottom: 40px; */
+  }
+  
+  .mywork-title h1 {
+    padding: 0px 30px;
+    font-size: 40px;
+    font-weight: 600;
+  }
+  
+  .mywork-title img {
+    position: absolute;
+    justify-content: center;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+  }
+  
+  .mywork-container,
+  .mywork-container2,
+  .mywork-container3,
+  .mywork-container4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 40px;
+    /* box-sizing: border-box;
+    width: 419px;
+    height: 280px;
+    transition: 0.3s; */
+    align-items: center;
+    padding: 20px;
+    margin: 10px;
+    border: 2px solid black;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  /* .mywork-container img,
+  .mywork-container2 img,
+  .mywork-container3 img,
+  .mywork-container4 img {
+    position: absolute;
+    bottom: 1;
+    right: 1;
+    z-index: -2;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  } */
+  
+  .mywork-container h1,
+  .mywork-container2 h1,
+  .mywork-container3 h1,
+  .mywork-container4 h1 {
+    width: 300px;
+    text-align: center;
+    background: linear-gradient(270deg, #DF8908 50%, #B415FF 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .mywork-container p,
+  .mywork-container2 p,
+  .mywork-container3 p,
+  .mywork-container4 p {
+    text-align: justify;
+    margin: 5px 0;
+  }
+/*   
+  .projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+  } */
+
+  /* @media (max-width: 768px) {
+    .projects-grid {
+      grid-template-columns: 1fr;
+    }
+  } */
+  .mywork-container:hover,
+  .mywork-container2:hover,
+  .mywork-container3:hover,
+  .mywork-container4:hover{
+    border: 2px solid #ff00ff;
+    border-radius: 10px;
+    /* background-image: linear-gradient(50deg #d18bb7, #a775a2); */
+    transform: scale(1.10);
+    transition: 0.4s;
+}
+@media(max-width:768px){
+  .mywork{
+    gap: 40px;
+    margin: 40px 60px;
+    align-items: start;
+  }
+  .mywork-title h1{
+    padding: 0;
+    font-size: 45px;
+    font-weight: 600;
+  }
+  .mywork-title img{
+    width: 130px;
+    margin-right: -20px;
+  }
+  .mywork-container{
+    gap: 20px;
+    padding: 32px;
+  }
+}
