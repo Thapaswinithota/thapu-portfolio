@@ -80,6 +80,12 @@
     text-align: justify;
     margin: 5px 0;
   }
+  .mywork-container a,
+  .mywork-container2 a,
+  .mywork-container3 a,
+  .mywork-container4 a {
+     text-decoration: none;
+  }
 /*   
   .projects-grid {
     display: grid;

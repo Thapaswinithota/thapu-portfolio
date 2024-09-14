@@ -14,9 +14,9 @@ const MyWork = () => {
             <img src={theme_pattern} alt="" />
         </div>
         <div className="mywork-container">
-    
+            <a href="https://github.com/Thapaswinithota/Parkinson-diseases-detection.git" target="_blank" rel="noopener noreferrer"> 
             <h1>1. Parkinson's Disease Detection using ML-04/2023</h1>
-
+            </a>
             {/* <img src={parkinson} alt="" /> */}
             {/* <p>*Implemented a machine learning-based appXGBoostsing the XGBoost algorithm and clinical data for early detection of Parkinson's Disease, achieving 
             high accuracy according to results.</p>
@@ -24,7 +24,9 @@ const MyWork = () => {
             <p>*Skills used include Machine Learning, Data Preprocessing, Python, and proficiency in various ML classifiers and libraries such as NumPy.</p> */}
         </div>
         <div className="mywork-container2">
+            <a href="https://github.com/Thapaswinithota/Vehicle-Parking-Detection-using-CV.git" target="_blank" rel="noopener noreferrer">
             <h1>2. Vehicle Parking Space Counter using OpenCV-11/2023</h1>
+            </a>
             {/* <img src={car} alt="" /> */}
             {/* <p>*Collaborated with a team of two to develop a real-time vehicle parking space counter using OpenCV and Python. Contributed by actively participating in 
             coding and providing innovative ideas to enhance project functionality and efficiency.</p>
@@ -33,7 +35,9 @@ const MyWork = () => {
             <p>*Skills used include Python, OpenCV, Computer vision, and object detection.</p> */}
         </div>
         <div className="mywork-container3">
+            <a href="https://github.com/Thapaswinithota/GAT-With-TGSA.git" target="_blank" rel="noopener noreferrer">  
             <h1>3. GAT: A GAT for Enhanced Protein-protein Interaction and Drug Responce Prediction-04/2024</h1>
+            </a>
             {/* <img src={biomed} alt="" /> */}
             {/* <p>*I meticulously implemented the "TGSA: protein-protein association-based twin graph neural networks for drug response prediction with similarity 
             augmentation" paper into "GAT: A Graph Attention Networks for Enhanced Protein-Protein Interaction and Drug Response Prediction.</p>
@@ -41,7 +45,9 @@ const MyWork = () => {
                 papers in the field of bioinformatics, Detail-oriented approach to modifying and improving existing codebase, Strong collaboration and teamwork skills honed in a research-intensive environment.</p> */}
         </div>
         <div className="mywork-container4">
+            <a href="https://github.com/Thapaswinithota/Netflix-Clone.git" target="_blank" rel="noopener noreferrer">
             <h1>4. Netflix Clone-06/2024</h1>
+            </a>
             {/* <img src={netflix} alt="" /> */}
             {/* <p>*Implemented user authentication, movie browsing, and streaming features using React.js and Firebase for a seamless user experience.</p>
             <p>*Utilized HTML, CSS, and Bootstrap to create a visually appealing and responsive interface, ensuring compatibility across various devices.</p>

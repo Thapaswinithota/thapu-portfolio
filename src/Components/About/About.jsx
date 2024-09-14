@@ -19,12 +19,12 @@ const About = () => {
                     <p>I'm a passionate frontend developer currently pursuing my Master's degree, eager to contribute dynamic web solutions using HTML, CSS, JavaScript, and React.js. With a focus on creating intuitive user interfaces, I bring a commitment to clean, maintainable code and continuous learning.</p>
                     <p>My goal is to apply my academic background and practical skills in frontend development to create significant value in a dynamic work environment in the USA, driving innovation, fostering growth, and achieving exceptional results.</p>
                     <h1>Education</h1>
-                    <p>1. Master Degree: Masters in Computer Science GPA: 3.88/4.00 </p>
+                    <p>1. Master Degree: Masters in Computer Science <em>GPA</em>: 3.88/4.00 </p>
                     <p>College: University Of Central Florida</p>
                     <p> Design and Analysis of Algorithms, Machine learning, Operating Systems, Advanced Computer Architecture, Computer Vision, Incident Responce Technologies
                         Malware and Software vulnerability, Machine learning for biomedical, Advanced Virtual reality.
                     </p>
-                    <p>2. Degree: Bachelors in Computer Science GPA: 9/10</p>
+                    <p>2. Degree: Bachelors in Computer Science <em>GPA</em>: 9/10</p>
                     <p>College: Bapatla Engineering college-India</p>
                     <p>Bachelor's in Computer Science laid a strong foundation and sparked my interest, leading me to pursue a Master's Degree in the same field. Key Courses during
                         my bachelors included Web development, Machine learning, Deep learning, Computer Vision, Python, OOPS, Data structures and algorithms, Advanced Data structures and algorithms,
@@ -37,22 +37,23 @@ const About = () => {
                     <div className="about-skill"><p>HTML & CSS</p><hr style={{width:"90%"}}/></div>
                     <div className="about-skill"><p>React JS</p><hr style={{width:"60%"}}/></div>
                     <div className="about-skill"><p>JavaScript</p><hr style={{width:"50%"}}/></div>
-                    <div className="about-skill"><p>Next JS</p><hr style={{width:"40%"}}/></div>
+                    <div className="about-skill"><p>Angular JS</p><hr style={{width:"40%"}}/></div>
                     <div className="about-skill"><p>Python</p><hr style={{width:"90%"}}/></div>
                     <div className="about-skill"><p>C</p><hr style={{width:"60%"}}/></div>
                     <div className="about-skill"><p>MYSQL</p><hr style={{width:"70%"}}/></div>
                     <div className="about-skill"><p>flask</p><hr style={{width:"40%"}}/></div>
                     <div className="about-skill"><p>Node.js</p><hr style={{width:"50%"}}/></div>
+                    <div className="about-skill"><p>Java</p><hr style={{width:"40%"}}/></div>
     
                 </div>
             </div>
         </div>
         <div className="about-achievements">
-            <div className="about-achievement">
-                <h1>4+</h1>
+            {/* <div className="about-achievement">
+                <h1>+</h1>
                 <p>YEARS OF EXPERIENCE</p>
-            </div>
-            <hr />
+            </div> */}
+            {/* <hr /> */}
             <div className="about-achievement">
                 <h1>10+</h1>
                 <p>PROJECTS COMPLETED</p>
