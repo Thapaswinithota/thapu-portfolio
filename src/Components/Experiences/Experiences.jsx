@@ -15,7 +15,7 @@ const Services = () => {
           <ul>
           <li>Deepened my understanding of full-stack web development, including front-end frameworks, back-end integration, and building secure financial applications, while teaching students in the FinTech space.</li>
           <li>Enhanced my teaching skills by simplifying complex concepts for students, guiding them through hands-on labs, and facilitating engaging discussions.Strengthened leadership and mentoring abilities, helping students solve problems effectively and providing personalized feedback on their performance.</li>
-          <li>Gained in-depth knowledge of operating system fundamentals, such as process scheduling, memory management, and security protocols, enhancing my ability to explain system processes clearly to students.</li>
+          <li>Assisted in teaching Full-Stack Web Development courses at the University of Central Florida, helping students grasp complex concepts in React.js, Node.js, and Agile methodologies.</li>
           <li>Improved communication skills through regular interactions with students, explaining technical topics clearly and addressing their questions and concerns.</li>
           <li>Fostered a collaborative learning environment by encouraging teamwork and creating a supportive space for student growth and development.</li>
           </ul>
@@ -25,9 +25,10 @@ const Services = () => {
           <h1>TechCiti Software Consulting Private Limited- May 2022 - Dec 2022</h1>
           <ul>
             <li>Worked on both Frontend and Backend and designed and implemented a web-based platform to facilitate the efficient disposal of food waste, aiming to reduce environmental impact and promote sustainable practices.</li>
-            <li>Utilized Python for backend development, creating robust and scalable server-side functionalities, including data processing, user authentication, and waste tracking mechanisms.</li>
-            <li>Integrated and managed a database to store and retrieve user information and waste disposal records, ensuring data integrity and security.</li>
-            <li>Collaborated on the front-end development using HTML, CSS, and JavaScript to create an intuitive and user-friendly interface, enhancing user experience and engagement.</li>
+            <li>Contributed to the development of a web platform for Food Waste Disposal using React.js for the front end and Node.js for the back end, focusing on creating an intuitive user interface and a robust server-side architecture.</li>
+            <li>Gained hands-on experience with database management by designing efficient schemas and integrating MongoDB, ensuring data integrity and optimized query performance.</li>
+            <li>Collaborated within an Agile team, participating in daily stand-ups and sprint planning, which enhanced project delivery and fostered effective communication among team members. Implemented RESTful APIs to facilitate seamless communication between the front-end and back-end components, improving application functionality and user experience.</li>
+            <li>Utilized version control systems like Git for code collaboration and management, ensuring a streamlined workflow and easy tracking of changes. Developed debugging and testing skills by applying various testing frameworks, ensuring high-quality code and reducing bugs in production.</li>
             </ul>
         </div>
         <div className="experience-container3">

@@ -5,8 +5,12 @@
     gap: 35px;
 }
 .hero img{
-    border-radius: 50%;
+    border-radius: 20%;
     margin-top: 150px;
+    max-width: 300px; /* Adjust the width as necessary */
+    height: auto;     /* This maintains the aspect ratio */
+    display: block;   /* Ensures the image is a block element */
+    margin: 0 auto;   /* Centers the image horizontally *     
 }
 .hero h1{
     /* background: linear-gradient(270deg, #DF8908 10%, #B415FF 100%);
