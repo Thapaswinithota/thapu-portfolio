@@ -7,11 +7,12 @@
 .hero img{
     border-radius: 20%;
     margin-top: 150px;
-    max-width: 300px; /* Adjust the width as necessary */
-    height: auto;     /* This maintains the aspect ratio */
-    display: block;   /* Ensures the image is a block element */
-    margin: 0 auto;   /* Centers the image horizontally *     
+    max-width: 300px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
 }
+
 .hero h1{
     /* background: linear-gradient(270deg, #DF8908 10%, #B415FF 100%);
     background-clip: text;
@@ -30,7 +31,7 @@
 }
 .hero p{
     width: 80%;
-    text-align: justify;
+    text-align: justify;        
     font-size: 18px;
     line-height: 25px;
 }
@@ -98,4 +99,23 @@
         border-radius: 40px;
 
     }
+}
+.hero h1 {
+    text-align: center;
+    width: 70%;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.hero h1 span {
+    background: linear-gradient(270deg, #DF8908 10%, #B415FF 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.hero .Typewriter__wrapper {
+    display: inline;
+    font-size: 40px;
+    color: #6a0dad; /* Change this to your preferred color */
 }

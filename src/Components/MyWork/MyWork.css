@@ -1,130 +1,131 @@
 .mywork {
-    display: flex;
-    flex-direction: column;
-    /* align-items: flex-start; */
-    justify-content: center;
-    gap: 10px;
-    margin: 40px 90px;
-  }
-  
-  .mywork-title {
-    /* text-align: center; */
-    position: relative;
-    /* margin-bottom: 40px; */
-  }
-  
-  .mywork-title h1 {
-    padding: 0px 30px;
-    font-size: 40px;
-    font-weight: 600;
-  }
-  
-  .mywork-title img {
-    position: absolute;
-    justify-content: center;
-    bottom: 0;
-    right: 0;
-    z-index: -1;
-  }
-  
-  .mywork-container,
-  .mywork-container2,
-  .mywork-container3,
-  .mywork-container4 {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 40px;
-    /* box-sizing: border-box;
-    width: 419px;
-    height: 280px;
-    transition: 0.3s; */
-    align-items: center;
-    padding: 20px;
-    margin: 10px;
-    border: 2px solid black;
-    border-radius: 8px;
-    cursor: pointer;
-  }
-  
-  /* .mywork-container img,
-  .mywork-container2 img,
-  .mywork-container3 img,
-  .mywork-container4 img {
-    position: absolute;
-    bottom: 1;
-    right: 1;
-    z-index: -2;
-    max-width: 100%;
-    height: auto;
-    margin-bottom: 20px;
-  } */
-  
-  .mywork-container h1,
-  .mywork-container2 h1,
-  .mywork-container3 h1,
-  .mywork-container4 h1 {
-    width: 300px;
-    text-align: center;
-    background: linear-gradient(270deg, #DF8908 50%, #B415FF 100%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-size: 20px;
-    margin-bottom: 10px;
-  }
-  
-  .mywork-container p,
-  .mywork-container2 p,
-  .mywork-container3 p,
-  .mywork-container4 p {
-    text-align: justify;
-    margin: 5px 0;
-  }
-  .mywork-container a,
-  .mywork-container2 a,
-  .mywork-container3 a,
-  .mywork-container4 a {
-     text-decoration: none;
-  }
-/*   
-  .projects-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 20px;
-  } */
-
-  /* @media (max-width: 768px) {
-    .projects-grid {
-      grid-template-columns: 1fr;
-    }
-  } */
-  .mywork-container:hover,
-  .mywork-container2:hover,
-  .mywork-container3:hover,
-  .mywork-container4:hover{
-    border: 2px solid #ff00ff;
-    border-radius: 10px;
-    /* background-image: linear-gradient(50deg #d18bb7, #a775a2); */
-    transform: scale(1.10);
-    transition: 0.4s;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  margin: 40px 90px; /* Matches the spacing of the Experiences section */
 }
-@media(max-width:768px){
-  .mywork{
+
+.mywork-title {
+  position: relative; /* Allows the gradient image to overlap */
+}
+
+.mywork-title h1 {
+  padding: 0px 30px; /* Adds spacing between the title and the page edge */
+  font-size: 40px; /* Matches the title font size of Experiences */
+  font-weight: 600; /* Same boldness as Experiences */
+}
+
+.mywork-title img {
+  position: absolute; /* Allows precise placement of the gradient */
+  bottom: 0; /* Aligns the image at the bottom */
+  right: 0; /* Moves the image to the right */
+  z-index: -1; /* Ensures the gradient stays behind the text */
+  width: 150px; /* Same size as Experiences gradient */
+  height: auto; /* Maintains the aspect ratio */
+}
+
+/* Grid for Project Cards */
+.mywork-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Ensures three cards per row */
+  gap: 20px; /* Space between the cards */
+  margin: 20px auto;
+  max-width: 1200px; /* Limits grid width to maintain uniformity */
+}
+
+/* Project Card Styling */
+.project-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 60px; /* Matches the padding of Experience containers */
+  border: 2px solid black; /* Matches border thickness of Experience section */
+  border-radius: 15px; /* Same rounded corners */
+  transition: 0.4s; /* Smooth hover effect */
+  cursor: pointer; /* Indicates interactivity */
+  background-color: #fff; /* Adds a white background */
+  text-align: center; /* Centers the content */
+}
+
+.project-card:hover {
+  transform: scale(1.05); /* Slightly enlarges on hover */
+  border-color: #ff00ff; /* Changes border color on hover */
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /* Adds hover shadow */
+}
+
+/* Project Image */
+.project-image {
+  width: 100%; /* Makes the image responsive */
+  height: 150px; /* Smaller height for uniformity */
+  object-fit: cover; /* Ensures the image doesn't stretch */
+  border-radius: 10px; /* Optional rounded corners */
+}
+
+/* Project Title */
+.project-title {
+  font-size: 16px; /* Smaller title size */
+  font-weight: 500;
+  text-align: center;
+  color: #333;
+  margin: 10px 0;
+}
+
+/* Links for GitHub and Demo */
+.project-links {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px; /* Space between buttons */
+  width: 100%; /* Ensure buttons take up card width */
+}
+
+.github-link,
+.demo-link {
+  text-decoration: none;
+  font-size: 0.8rem; /* Smaller font size */
+  font-weight: bold;
+  padding: 6px 10px; /* Smaller padding for buttons */
+  border-radius: 5px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.github-link {
+  background-color: #007bff;
+  color: white;
+}
+
+.github-link:hover {
+  background-color: #0056b3;
+}
+
+.demo-link {
+  background-color: #4caf50;
+  color: white;
+}
+
+.demo-link:hover {
+  background-color: #388e3c;
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 768px) {
+  .mywork {
+    align-items: start; /* Align content to the start */
     gap: 40px;
-    margin: 40px 60px;
-    align-items: start;
+    margin: 40px 60px; /* Matches Experiences section spacing */
   }
-  .mywork-title h1{
+
+  .mywork-title h1 {
     padding: 0;
-    font-size: 45px;
-    font-weight: 600;
+    font-size: 35px; /* Slightly smaller for mobile screens */
   }
-  .mywork-title img{
-    width: 130px;
+
+  .mywork-title img {
+    width: 130px; /* Smaller gradient for mobile */
     margin-right: -20px;
   }
-  .mywork-container{
-    gap: 20px;
-    padding: 32px;
+
+  .project-card {
+    padding: 32px; /* Adjusts padding for smaller screens */
   }
 }

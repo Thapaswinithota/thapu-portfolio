@@ -1,5 +1,5 @@
 import React from 'react'
-import profile_img from '../../assets/profile.jpg'
+import profile_img from '../../assets/profile.png'
 import theme_pattern from '../../assets/theme_pattern.svg'
 import './About.css'
 
@@ -7,7 +7,7 @@ const About = () => {
   return (
     <div id='about' className='about'>
         <div className="about-title">
-            <h1> About Me</h1>
+            <h1> Who I Am </h1>
             <img src={theme_pattern} alt="" />
         </div>
         <div className="about-sections">
@@ -16,10 +16,11 @@ const About = () => {
             </div>
             <div className="about-right">
                 <div className="about-para">
-                    <p>Hello! again with a strong foundation in both front-end and back-end technologies. Currently pursuing my Master’s degree in Computer Science at the University of Central Florida, I have a deep interest in creating innovative and efficient software solutions.I specialize in developing dynamic web applications using modern frameworks like React.js, Node.js, and Python. My experience includes working on real-world projects, collaborating in team settings, and applying Agile methodologies to deliver high-quality results. I thrive on solving complex problems and continuously seek to learn new skills and technologies.</p>
-                    <p>In addition to my technical skills, I am committed to writing clean, maintainable code and focusing on user experience. I believe that effective communication and collaboration are key to successful project outcomes, and I enjoy working with cross-functional teams to bring ideas to life. When I'm not coding, you can find me exploring the latest trends in technology, participating in hackathons, or contributing to open-source projects. I’m excited to connect and explore opportunities to collaborate on impactful projects!</p>
+                    <p>Hey! I’m a full-stack developer finishing up my Master’s in Computer Science at the University of Central Florida. I’m into building smooth, user-friendly web apps with tools like React.js, Node.js, and Python—basically anything that brings ideas to life on the web. I’ve worked on a bunch of real-world projects, which taught me the ins and outs of Agile teamwork and the importance of writing clean, maintainable code.</p>
+                    <p>I genuinely enjoy solving tricky problems and making sure the final product not only works well but also gives users a great experience. Outside of coding, you’ll find me diving into new tech trends, taking on side projects, and joining hackathons just for the thrill. I also love contributing to open-source projects, where I get to learn and give back at the same time.</p>
+                    <p>If you’re looking to connect or collaborate on something impactful, let’s chat! I’m always up for new projects and love meeting like-minded people who share my passion for tech.</p>
                     {/* <p>Feel free to reach out if you'd like to discuss potential collaborations or just want to connect!</p> */}
-                    <h1>Education</h1>
+                    <h1>My Education Journey</h1>
                     <p>1. Master Degree: Masters in Computer Science <em>GPA</em>: 3.88/4.00 </p>
                     <p>College: University Of Central Florida</p>
                     <p> Design and Analysis of Algorithms, Machine learning, Operating Systems, Advanced Computer Architecture, Computer Vision, Incident Responce Technologies
@@ -34,7 +35,7 @@ const About = () => {
                     {/* <p1>*Open to work*</p1> */}
                 </div>
                 <div className="about-skills">
-                    <h1>Skills</h1>
+                    <h1>My Skill Set</h1>
                     <div className="about-skill"><p>HTML & CSS</p><hr style={{width:"90%"}}/></div>
                     <div className="about-skill"><p>React JS</p><hr style={{width:"80%"}}/></div>
                     <div className="about-skill"><p>JavaScript</p><hr style={{width:"70%"}}/></div>

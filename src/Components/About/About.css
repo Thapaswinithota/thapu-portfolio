@@ -25,12 +25,19 @@
     display: flex;
     gap: 80px;
 }
-.about-left img{
-        max-width: 300px; /* Adjust the width as necessary */
-        height: auto;     /* This maintains the aspect ratio */
-        display: block;   /* Ensures the image is a block element */
-        margin: 0 auto;   /* Centers the image horizontally */
-      }
+.about-left img {
+    max-width: 300px; /* Adjust the width as necessary */
+    height: auto;     /* Maintain aspect ratio */
+    display: block;   /* Ensures the image is a block element */
+    margin: 0 auto;   /* Centers the image horizontally */
+    transition: transform 0.3s ease; /* Smooth zoom transition */
+  }
+  
+  .about-left img:hover {
+    transform: scale(1.1); /* Scales the image to 110% on hover */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3); /* Optional: Add a shadow on hover */
+  }
+  
       
 
 .about-right{
