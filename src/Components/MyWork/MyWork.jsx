@@ -34,6 +34,12 @@ const MyWork = () => {
       github: "https://github.com/Thapaswinithota/Tic-Tac-Toe-game",
       demo: "https://tic-tac-toe-game-three-sooty.vercel.app/", // Replace with your demo link (e.g., from Vercel or Netlify)
     },
+    {
+      title: "Snake Game - 11/2024",
+      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeICjNpKz28ldSuSL7YPndO3ZQLJeHzxKliA&s", // Replace with an image for the Tic-Tac-Toe game
+      github: "https://github.com/Thapaswinithota/Snake-Game",
+      demo: "https://snake-game-nine-kohl.vercel.app/", // Replace with your demo link (e.g., from Vercel or Netlify)
+    },
   ];
 
   return (
