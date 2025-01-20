@@ -46,7 +46,7 @@ const Hero = () => {
           <AnchorLink className='anchor-link' offset={50} href='#contact'>Connect with Me</AnchorLink>
         </div>
         <div className="hero-resume">
-          <a href='https://drive.google.com/file/d/1_HU9i8iv1nOH97GLK5ESa5jiLFQh8c6Y/view?usp=sharing' target='_blank' rel='noopener noreferrer'>My Resume</a>
+          <a href='https://drive.google.com/file/d/1U6IfpIcx03BJn3se61MiPdcug0Q638mb/view?usp=sharing' target='_blank' rel='noopener noreferrer'>My Resume</a>
         </div>
       </div>
     </div>
